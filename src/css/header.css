@@ -1,0 +1,54 @@
+  .content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #94d2bd;
+    padding: 23px;
+    top: 0;
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.6s ease; 
+  }
+
+  nav.close {
+    --sidebar-width: 70px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    }
+
+    nav ul li{
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 15px;
+    }
+
+    nav ul li a:hover{
+      background-color: #fff;
+    } 
+
+
+
+
+    /* Define styles for light mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Define styles for dark mode */
+.dark-mode {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+
+
